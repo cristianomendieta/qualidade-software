@@ -1,1 +1,2 @@
 adiciona uma nova funcionalidade
+adiona funcionalidade da branch staging
