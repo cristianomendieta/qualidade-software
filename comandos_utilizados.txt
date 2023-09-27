@@ -1,0 +1,38 @@
+1302  git add .
+1303  git status
+1304  git commit -m "commit inicial"
+1305  git push origin main
+1306  git status
+1307  git add .
+1308  git status
+1309  git commit -m "adiciona nova funcionalidade ao teste"
+1310  git push origin main
+1311  git reflog
+1312  git reset --hard 68eb7fa
+1313  git reflog
+1314  git reset --hard 08cad05
+1315  git branch
+1316  git branch staging
+1317  git branch
+1318  git checkout staging 
+1319  git status
+1320  git add .
+1321  git commit -m "adiona funcionalidade em staging"
+1322  git push origin staging 
+1323  git branch
+1324  git checkout master
+1325  git checkout main
+1326  git merge staging
+1327  git add .
+1328  git commit -m "realiza merge de staging na main"
+1329  git push
+1330  git pull
+1331  git checkout -b teste-pr
+1332  git add .
+1333  git commit -m "adiciona teste de PR"
+1334  git push origin teste-pr 
+1335  git checkout main
+1336  git pull
+1337  git add .
+1338  git commit -m "adiciona gitignore"
+1339  git push origin main
